@@ -54,6 +54,46 @@
             border-bottom: 30px rgb(0, 0, 0) solid;
             line-height: 35px;
         }
+
+    main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.mesa{
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+button{
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;/*Quando passa o mouse seta vira mãozinha*/
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: green;/*Muda a cor de fundo do botão para verde quando mouse passa por cima.*/
+    transform: scale(1.05); /*Faz o botão aumentar de tamanho.*/
+}
+
+.livre{
+    color: green;
+    font-weight: bold;/*deixa o texto em negrito*/
+    display: block;
+    margin: 10px 0;
+}
     </style>
 </head>
 <body>
@@ -71,18 +111,68 @@
     </header>
     <hr>
     <main>
-<p>confira nossas mesas livres</p>
+<h1>Mesas Disponíveis</h1>
 
-<p>Mesa 1 - Para 2 pessoas(esta livre) <a href="nome.html">agende</a></p>
-<p>Mesa 2 - Para 2 pessoas(esta livre) <a href="nome.html">agende</a></p>
-<p>Mesa 3 - Para 3 pessoas(esta livre) <a href="nome.html">agende</a></p>
-<p>Mesa 4 - Para 3 pessoas (esta livre) <a href="nome.html">agende</a></p>
-<p>Mesa 5 - Para 4 pessoas (esta livre) <a href="nome.html">agende</a></p>
-<p>Mesa 6 - Para 5 pessoas (esta livre) <a href="nome.html">agende</a></p>
-<p>Mesa 7 - Para 5 pessoas (esta livre) <a href="nome.html">agende</a></p>
-<p>Mesa 8 - Para 6 pessoas (esta livre) <a href="nome.html">agende</a></p>
-<p>Mesa 9 - Para 6 pessoas (esta livre) <a href="nome.html">agende</a></p>
-<p>Mesa 10 - Para 7 pessoas (esta livre) <a href="nome.html">agende</a></p>
+<div class="mesa">
+    <h2>Mesa 1</h2>
+    <p>Para 2 pessoas</p>
+    <span class="livre">Disponível</span>
+    <button>Agendar</button>
+</div>
+<div class="mesa">
+    <h2>Mesa 2</h2>
+    <p>Para 2 pessoas</p>
+    <span class="livre">Disponível</span>
+    <button>Agendar</button>
+</div>
+<div class="mesa">
+    <h2>Mesa 3</h2>
+    <p>Para 4 pessoas</p>
+    <span class="livre">Disponível</span>
+    <button>Agendar</button>
+</div>
+<div class="mesa">
+    <h2>Mesa 4</h2>
+    <p>Para 4 pessoas</p>
+    <span class="livre">Disponível</span>
+    <button>Agendar</button>
+</div>
+<div class="mesa">
+    <h2>Mesa 5</h2>
+    <p>Para 4 pessoas</p>
+    <span class="livre">Disponível</span>
+    <button>Agendar</button>
+</div>
+<div class="mesa">
+    <h2>Mesa 6</h2>
+    <p>Para 4 pessoas</p>
+    <span class="livre">Disponível</span>
+    <button>Agendar</button>
+</div>
+<div class="mesa">
+    <h2>Mesa 7</h2>
+    <p>Para 2 pessoas</p>
+    <span class="livre">Disponível</span>
+    <button>Agendar</button>
+</div>
+<div class="mesa">
+    <h2>Mesa 8</h2>
+    <p>Para 6 pessoas</p>
+    <span class="livre">Disponível</span>
+    <button>Agendar</button>
+</div>
+<div class="mesa">
+    <h2>Mesa 9</h2>
+    <p>Para 6 pessoas</p>
+    <span class="livre">Disponível</span>
+    <button>Agendar</button>
+</div>
+<div class="mesa">
+    <h2>Mesa 10</h2>
+    <p>Para 4 pessoas</p>
+    <span class="livre">Disponível</span>
+    <button>Agendar</button>
+</div>
 
 
 <a href="index.html">Voltar</a>
