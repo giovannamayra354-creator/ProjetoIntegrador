@@ -3,15 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Seu Sabor</title>
+    <title>Seu Sabor</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Frijole&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+        *{
+          margin: 0;
+          padding: 0;
+        }
+        a{
+            height: 40px;
+            line-height: 40px;
+            text-decoration: none;
+            padding: 20px;
+            color: green;
+             font-family: "Playwrite GB S", cursive;
+              font-weight: 900;
+
+        }
+        p{
+              font-family: "Playwrite GB S", cursive;
+
+        }
+        
+        header{
+            border-top: 15px rgb(0, 0, 0) solid;
+            background-color: orange;
+            text-align: center;
+          }
+        .mei{
+            background-color: black;
+            width: 100%;
+            height: 40px;
+            color: aquamarine;
+            line-height: 40px;
+        }
+        a:hover{
+   
+            color: rgb(14, 168, 116);
+      
+        }
+        .roda{
+            width: 100%;
+            height: 120px;
+            font-size: 20px;
+            text-align: center;   
+            background-color: orange;
+            border-top: 15px rgb(0, 0, 0) solid;
+            border-bottom: 30px rgb(0, 0, 0) solid;
+            line-height: 35px;
+        }
+        .conteiner{
+            display: flex;
+            height: 500px;
+  
+            gap: 20px;
+            padding: 30px;
+        }
+        .item_dias img{
+            width: 100%;
+            text-align: center;
+        }
+        .item_dias{
+            text-align: center;
+          background-color: rgb(244, 229, 201);
+          height: 450px;
+          padding: 20px;
+          border: 1px solid green;;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div align="center">
-            <img src="img/Logo. SITEMAP.png" width="200">
+        <div class="header">
+             <img src="img/Logo. SITEMAP.png" width="200">
         </div>
         <hr>
-        <div align="center">           
+        <div class="mei">           
            <a href="cardapio.html"><td>CARDAPIO</td></a>
             <a href="reserva.html"><td>RESERVA</td></a>
             <a href="agenda.html"><td>AGENDA</td></a> 
@@ -21,14 +90,47 @@
     <hr>
     <main>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique distinctio blanditiis saepe sunt eligendi illum consequatur ratione possimus! Quam magnam sunt excepturi vitae ad unde minus earum accusamus perferendis voluptatibus.</p>
- <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Document</title> </head> <body> <p>Segunda - (esta livre) <a href="banda.html">Agende</a></p> <p>Terça - (esta livre) <a href="banda.html">Agende</a></p> <p>Quarta - (esta oucupado) <a href="ocupado.html">agende</a></p> <p>Quinta - (esta livre) <a href="banda.html">Agende</a></p> <p>Sexta - (esta oucupado) <a href="ocupado.html">agende</a></p> <p>Sabado - (esta livre) <a href="banda.html">Agende</a></p> <p>Domingo - (esta oucupado) <a href="ocupado.html">agende</a></p>  <img src="img/images.jpg" width="300"> <a href="index.html">Voltar</a> </body> </html>
-    </main>
+        <div class="conteiner">
+            <div class="item_dias">
+                <h1>QUARTA</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint quos nihil accusamus eos quae reprehenderit consectetur iste, mollitia ratione qui.</p>
+                <img src="img/frango pizza.jpg">
+                <button>AGENDE</button>
+            </div>
+
+            <div class="item_dias">
+                <h1>QUARTA</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint quos nihil accusamus eos quae reprehenderit consectetur iste, mollitia ratione qui.</p>
+                <img src="img/frango pizza.jpg">
+                <button>AGENDE</button>
+            </div>
+
+            <div class="item_dias">
+                <h1>QUARTA</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint quos nihil accusamus eos quae reprehenderit consectetur iste, mollitia ratione qui.</p>
+                <img src="img/frango pizza.jpg">
+                <button>AGENDE</button>
+            </div>
+
+            <div class="item_dias">
+                <h1>QUARTA</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint quos nihil accusamus eos quae reprehenderit consectetur iste, mollitia ratione qui.</p>
+                <img src="img/frango pizza.jpg">
+                <button>AGENDE</button>
+            </div>
+
+
+        </div>
+
+
     <hr>
     <footer>
-        <div align="center">
-        Projeto Acadêmico
+        <div class="roda">
+        <p>Projeto Acadêmico</p>
+        <p>Telefone para contato com a loja= 14-99829-3867</p>
+        <p>Endereço da nossa loja= R. Conselheiro Dantas - Santa Cruz do Rio Pardo-Sp. Cep= 18900-079</p>
         </div>
     </footer>
+  
 </body>
 </html>
